@@ -34,6 +34,16 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-timeago
+  - jekyll-polyglot
+
+# Configuration options
+languages: ["en", "ko"]
+defalut_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+
+sass:
+  sourcemap: never
 
 # Exclude from processing.
 # The following items will not be processed, by default.
